@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/header";
+import SlickBanner from '@/components/slick/slickBanner'
 // import Providers from "./../components/Providers";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,6 +23,7 @@ export default function RootLayout({
         
           <div className="bg-info-content min-h-screen flex flex-col">
             <Header />
+            <SlickBanner />
             {children}
             <footer className="footer footer-center p-4 bg-base-300 text-base-content">
               <p>Fandak Fororush</p>
