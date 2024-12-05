@@ -10,8 +10,8 @@ const SlickBanner = () => {
   const settings = {
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 2,
-    autoplaySpeed: 5000,
+    slidesToScroll: 1,
+    autoplaySpeed: 4000,
     autoplay : true,
     InitalSlide: 0,
     rtl: true,
@@ -187,21 +187,7 @@ const SlickBanner = () => {
             />
 
             <h2 className="text-yellow-400 text-lg text-center mb-2  ml-5 p-1"> Lighter    </h2>
-          </Link>
-          <Link
-            href="/"
-            className="flex flex-col justify-center items-center rounded-lg bg-slate-900 px-2"
-          >
-            <Image
-              className="rounded-lg mx-auto my-2"
-              src="/images/category/lighter/lighter05-02.jpg"
-              alt=""
-              width={300}
-              height={300}
-            />
-
-            <h2 className="text-yellow-400 text-lg text-center mb-2  ml-5 p-1"> Lighter    </h2>
-          </Link>
+          </Link>         
 
           <Link
             href="/"
