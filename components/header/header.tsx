@@ -6,11 +6,11 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <div className="navbar justify-between bg-base-300 ">
+        <div className="navbar flex justify-end bg-base-300 ">
           <Link href="/" className="btn btn-ghost text-lg vazir">
-            فروشگاه آنلاین
+            صفحه اصلی
           </Link>
-          <Menu />
+          {/* <Menu /> */}
         </div>
       </nav>
     </header>

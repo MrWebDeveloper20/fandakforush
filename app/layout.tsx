@@ -24,7 +24,7 @@ export default function RootLayout({
             <Header />
             {children}
             <footer className="footer footer-center p-4 bg-base-300 text-base-content">
-              <p>Copyright 2024 ArashJalilian</p>
+              <p>Fandak Fororush</p>
             </footer>
           </div>
               
